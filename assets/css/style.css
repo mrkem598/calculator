@@ -1,0 +1,37 @@
+.container{
+	background-color: orange;
+	border-radius: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 30px;
+
+
+
+}
+#infoPanel{
+	font-family: 'Slabo 27px', serif, bold;
+	text-align: center;
+	border-radius: 50px;
+}
+p{
+	text-decoration-style: solid;
+	font-size: 25px;
+	
+}
+p1{
+	text-decoration: underline;
+}
+@media screen and (max-width:769px){
+	.container{
+		background: gray;
+	}
+	.gray_background{
+		width:auto;
+		height: auto;
+		margin: 10px;
+		padding: 20px;
+	}
+}
+
